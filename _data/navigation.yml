@@ -1,0 +1,55 @@
+- title: Zetaops
+  image: zetaops.png
+  url: "/"
+  side: left
+
+- title: Kurumsal
+  url: "/kurumsal/"
+  side: left
+
+- title: "Çalışma Alanlarımız"
+  url: "/calisma-alanlarimiz/"
+  side: left
+  dropdown:
+  - title: "Bulut Ekseninde Ar-Ge Konularimiz"
+    url: "/calisma-alanlarimiz/bulut-eksende-ar-ge-konularimiz"
+  - title: "Bulut Göçü Danışmanlığı"
+    url: "/calisma-alanlarimiz/bulut-gocu-danismanligi"
+  - title: "Zetaops Data Analysis Suite (DAS)"
+    url: "/calisma-alanlarimiz/zetaopsDAS"
+  - title: "Ulakbüs"
+    url: "/calisma-alanlarimiz/ulakbus"
+
+- title: "Projeler"
+  url: "/projeler/"
+  side: left
+  dropdown:
+  - title: "Header with Full-Width-Image"
+    url: "/design/header-full-width-image/"
+  - title: "Header with Image and Pattern"
+    url: "/design/header-image-pattern/"
+  - title: "Header with image and color"
+    url: "/design/header-image-color/"
+  - title: "Header Only With Logo"
+    url: "/design/header-logo-only/"
+  - title: "Header With Text"
+    url: "/design/header-with-text/"
+  - title: "No Header"
+    url: "/design/no-header/"
+  - title: "No Header but Image"
+    url: "/design/no-header-but-image/"
+
+- title: Blog
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+
+- title: "We Are Hiring"
+  url: "/we-are-hiring/"
+  side: right
+
+- title: "İletİşİm"
+  url: "/iletisim/"
+  side: right
