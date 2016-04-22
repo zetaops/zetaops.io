@@ -20,12 +20,16 @@ mail: info@zetaops.io
         </div>
         <div class="large-6 columns" id="contact">
             <h3>İletişim Formu</h3>
+            <span class="subject" style="font-weight:bold;color:red;"></span>
             <form action="https://formspree.io/{{ page.mail }}" method="POST">
-                <input type="text" name="_gotcha" style="display:none" />
                 <input type="text" name="name" placeholder="Isim Soyisim, Nick">
                 <input type="email" name="_replyto" placeholder="Mail">
                 <textarea type="text" name="message" placeholder="Mesaj"></textarea>
                 <input class="button radius" style="float:right;" type="submit" value="Mesaj Gönderin">
+                <!-- Hidden form Elements -->
+                <input type="text" class="subject" name="_subject" style="display:none" value="Diğer" />
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="hidden" name="_next" value="{{site.url}}/thanks" />
             </form>
         </div>
     </div>
@@ -45,7 +49,48 @@ mail: info@zetaops.io
     </div>
 </div>
 
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
 <script type="text/javascript"
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5DLwPPVAz88_k0yO2nmFe7T9k1urQs84"></script>
-<script src="/assets/js/maps.js"></script>
+<script src="/assets/js/contact.js"></script>
+
+<script>
+var QueryString = function () {
+    // This function is anonymous, is executed immediately and
+    // the return value is assigned to QueryString!
+    var query_string = {};
+    var query = window.location.search.substring(1);
+    var vars = query.split("&");
+    for (var i=0;i<vars.length;i++) {
+        var pair = vars[i].split("=");
+        // If first entry with this name
+        if (typeof query_string[pair[0]] === "undefined") {
+            query_string[pair[0]] = decodeURIComponent(pair[1]);
+            // If second entry with this name
+        } else if (typeof query_string[pair[0]] === "string") {
+            var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
+            query_string[pair[0]] = arr;
+            // If third or later entry with this name
+        } else {
+            query_string[pair[0]].push(decodeURIComponent(pair[1]));
+        }
+    }
+    return query_string;
+}();
+
+
+if (parseInt(QueryString.place) && parseInt(QueryString.job)){
+    var placeObj = {{ site.places | jsonify }};
+    try{
+        var place = placeObj[QueryString.place-1].name;
+        var job = placeObj[QueryString.place-1].jobs[QueryString.job-1].name;
+        $('.subject').val(place+" - "+job);
+        $('.subject').html(place+" - "+job);
+
+    }
+    catch(err){
+        console.log("Yanlis parametre girildi.")
+    }
+}
+</script>

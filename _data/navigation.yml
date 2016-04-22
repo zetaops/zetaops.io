@@ -11,7 +11,7 @@
   url: "/calisma-alanlarimiz/"
   side: left
   dropdown:
-  - title: "Bulut Ekseninde Ar-Ge Konularimiz"
+  - title: "Bulut Eksenİnde Ar-Ge Konularimiz"
     url: "/calisma-alanlarimiz/arge"
   - title: "Bulut Göçü Danışmanlığı"
     url: "/calisma-alanlarimiz/bulut-gocu-danismanligi"

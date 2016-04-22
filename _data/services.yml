@@ -1,8 +1,8 @@
-- menu_name: "Services"
+- menu_name: "Servisler"
 
-- name: "Contact"
-  url: "/contact/"
-  title: "Contact"
+- name: "İletişim"
+  url: "/İletİşim/"
+  title: "İletişim"
 
 - name: "RSS"
   url: "/feed.xml"
