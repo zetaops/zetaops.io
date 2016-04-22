@@ -17,7 +17,7 @@ places:
 {% for loc in page.places limit:1000 %}
 <div id="blog-index" class="row">
 	<div class="small-12 columns t30">
-		<h1>{{ loc.name }}</h1>
+		<h2>{{ loc.name }}</h2>
 		<dl class="accordion" data-accordion>
 			{% assign counter = 1 %}
 			{% for job in loc.jobs limit:1000 %}
@@ -25,7 +25,7 @@ places:
 			<a href="#panel{{ counter }}"><span class="iconfont"></span><strong>{{ job.name }}</strong></a>
 				<div id="panel{{ counter }}" class="content">
 					{% if job.description %}{{ job.description | strip_html | escape }}{% endif %}
-					<br><a href="/iletisim/" title="Basvur">Basvur</a><br><br>
+					<br><a href="/iletisim/" class="button tiny radius" style="float:right;" title="Basvur">Basvur</a><br><br>
 				</div>
 			</dd>
 			{% assign counter=counter | plus:1 %}

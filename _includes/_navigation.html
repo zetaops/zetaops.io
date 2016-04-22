@@ -2,7 +2,7 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="{{ site.url }}{{ site.baseurl }}" class="icon-tree"> {{ site.title }}</a></h1>
+      <h1 class="show-for-small-only"><img src="{{ site.url }}/assets/img/logo.png" style=" width:13em;height=auto;"></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Navigation</span></a></li>
@@ -91,7 +91,7 @@
               <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}>
                 <a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>
                   {% if link.image != nil %}
-                  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ link.image }}" style="width:100px;height:auto;" alt="{{ link.title }} ">
+                  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ link.image }}" style="width:200px;height:auto;" alt="{{ link.title }} ">
                   {% else %}
                   {{link.title | escape}}
                   {% endif %}
@@ -105,7 +105,7 @@
               <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
                 <a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>
                   {% if link.image != nil %}
-                  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ link.image }}" style="width:100px;height:auto;" alt="{{ link.title }} ">
+                  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ link.image }}" style="width:200px;height:auto;" alt="{{ link.title }} ">
                   {% else %}
                   {{link.title | escape}}
                   {% endif %}

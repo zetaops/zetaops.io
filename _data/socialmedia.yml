@@ -8,25 +8,25 @@
 #  class: icon-youtube
 #  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
 
-#- name: Twitter
-#  url: http://twitter.com/phlow
-#  class: icon-twitter
-#  title: "Immer das Neuste von Phlow gibt es auf Twitter"
+- name: Twitter
+  url: http://twitter.com/zetaops
+  class: icon-twitter
+  title: "Twitter'dan takip edin!"
 
-#- name: Mixcloud
-#  url: http://www.mixcloud.com/phlow/
-#  class: icon-cloud
-#  title: "Mixe, was sonst?"
+- name: Linkedin
+  url: https://www.linkedin.com/company/5232501
+  class: icon-linkedin
+  title: "Linkedin'den takip edin!"
 
 #- name: Phlow YouTube Google+
 #  url: https://plus.google.com/u/0/+Phlow
 #  class: icon-googleplus
 #  title: "YouTube Google+"
 
-# - name: Facebook
-#   url: http://www.facebook.com/
-#   class: icon-facebook
-#   title: ""
+- name: Facebook
+  url: http://www.facebook.com/
+  class: icon-facebook
+  title: "Facebook'tan takip edin!"
 
 # - name: Soundcloud
 #   url: http://soundcloud.com/

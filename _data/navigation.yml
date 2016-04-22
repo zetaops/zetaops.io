@@ -26,8 +26,9 @@
 
 - title: "We Are Hiring"
   url: "/we-are-hiring/"
-  side: right
+  side: left
 
 - title: "İletİşİm"
   url: "/iletisim/"
-  side: right
+  side: left
+

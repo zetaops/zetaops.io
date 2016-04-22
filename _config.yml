@@ -157,18 +157,32 @@ bing_webmastertools_id:    '0FB4C028ABCF07C908C54386ABD2D97F'
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
 
-favicon-32x32:                          'favicon-32x32.png'
-touch-icon-192x192:                     'touch-icon-192x192.png'
-apple-touch-icon-180x180-precomposed:   'apple-touch-icon-180x180-precomposed.png'
-apple-touch-icon-152x152-precomposed:   'apple-touch-icon-152x152-precomposed.png'
-apple-touch-icon-144x144-precomposed:   'apple-touch-icon-144x144-precomposed.png'
-apple-touch-icon-120x120-precomposed:   'apple-touch-icon-120x120-precomposed.png'
-apple-touch-icon-114x114-precomposed:   'apple-touch-icon-114x114-precomposed.png'
-apple-touch-icon-76x76-precomposed:     'apple-touch-icon-76x76-precomposed.png'
-apple-touch-icon-72x72-precomposed:     'apple-touch-icon-72x72-precomposed.png'
-apple-touch-icon-precomposed:           'apple-touch-icon-precomposed.png'
-msapplication_tileimage:                'msapplication_tileimage.png'               # Size 144x144
+#favicon-32x32:                          'favicon-32x32.png'
+#touch-icon-192x192:                     'touch-icon-192x192.png'
+#apple-touch-icon-180x180-precomposed:   'apple-touch-icon-180x180-precomposed.png'
+#apple-touch-icon-152x152-precomposed:   'apple-touch-icon-152x152-precomposed.png'
+#apple-touch-icon-144x144-precomposed:   'apple-touch-icon-144x144-precomposed.png'
+#apple-touch-icon-120x120-precomposed:   'apple-touch-icon-120x120-precomposed.png'
+#apple-touch-icon-114x114-precomposed:   'apple-touch-icon-114x114-precomposed.png'
+#apple-touch-icon-76x76-precomposed:     'apple-touch-icon-76x76-precomposed.png'
+#apple-touch-icon-72x72-precomposed:     'apple-touch-icon-72x72-precomposed.png'
+#apple-touch-icon-precomposed:           'apple-touch-icon-precomposed.png'
+#msapplication_tileimage:                'msapplication_tileimage.png'               # Size 144x144
+#msapplication_tilecolor:                '#fabb00'
+
+favicon-32x32:                          'favicon.ico'
+touch-icon-192x192:                     'favicon.ico'
+apple-touch-icon-180x180-precomposed:   'favicon.ico'
+apple-touch-icon-152x152-precomposed:   'favicon.ico'
+apple-touch-icon-144x144-precomposed:   'favicon.ico'
+apple-touch-icon-120x120-precomposed:   'favicon.ico'
+apple-touch-icon-114x114-precomposed:   'favicon.ico'
+apple-touch-icon-76x76-precomposed:     'favicon.ico'
+apple-touch-icon-72x72-precomposed:     'favicon.ico'
+apple-touch-icon-precomposed:           'favicon.ico'
+msapplication_tileimage:                'favicon.ico'               # Size 144x144
 msapplication_tilecolor:                '#fabb00'
+
 
 
 #       ______                __                __
@@ -177,9 +191,9 @@ msapplication_tilecolor:                '#fabb00'
 #    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
-og_image:                           'http://images.phlow.de/phlow/phlow_de-logo-512x.png'
-og_locale:                          'en_EN'
-og_type:                            'website'
+#og_image:                           'http://images.phlow.de/phlow/phlow_de-logo-512x.png'
+#og_locale:                          'en_EN'
+#og_type:                            'website'
 
 
 #      _____            _       __   __  ___         ___
@@ -192,8 +206,9 @@ og_type:                            'website'
 #
 
 socialmedia:
-    twitter: phlow
+    twitter: zetaops
     facebook: phlow.media
+    github: zetaops
 
 
 #        ____  _
@@ -205,7 +220,7 @@ socialmedia:
 #
 # used in _includes/comments
 
-disqus_shortname: feelingresponsive
+#disqus_shortname: feelingresponsive
 
 
 #      _____
@@ -215,9 +230,9 @@ disqus_shortname: feelingresponsive
 #   /____/\__,_/____/____/      More › http://jekyllrb.com/docs/assets/#sassscss
 #
 
-sass:
-    sass_dir: _sass
-    style: :compressed
+#sass:
+#    sass_dir: _sass
+#    style: :compressed
 
 
 #       ___                __      __  _
@@ -229,7 +244,7 @@ sass:
 #
 # used in _includes/footer_scripts
 
-google_analytics_tracking_id: UA-60112281-1
+google_analytics_tracking_id: UA-60606688-1
 
 
 
