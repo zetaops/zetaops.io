@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49238fca-9c10-459b-8821-2d20cd5804f4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="49238fca-9c10-459b-8821-2d20cd5804f4" name="Default" comment="" />
     <ignored path="zetaops.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -335,12 +332,12 @@
       <workItem from="1461103701180" duration="941000" />
       <workItem from="1461221706775" duration="14844000" />
       <workItem from="1461240846479" duration="4037000" />
-      <workItem from="1461301492370" duration="22436000" />
+      <workItem from="1461301492370" duration="22572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48008000" />
+    <option name="totallyTimeSpent" value="48144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -664,8 +661,8 @@
         <state relative-caret-position="288">
           <caret line="119" column="15" selection-start-line="119" selection-start-column="15" selection-end-line="119" selection-end-column="15" />
           <folding>
-            <marker date="1461334565400" expanded="true" signature="2801:2883" placeholder="{...}" />
-            <marker date="1461334565400" expanded="true" signature="178128:178149" placeholder="{...}" />
+            <marker date="1461334706690" expanded="true" signature="2801:2883" placeholder="{...}" />
+            <marker date="1461334706690" expanded="true" signature="178128:178149" placeholder="{...}" />
           </folding>
         </state>
       </provider>
