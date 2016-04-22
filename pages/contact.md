@@ -50,7 +50,7 @@ mail: info@zetaops.io
 </div>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<script src="{{ site.url }}/assets/js/jquery-2.2.3.min.js"></script>
 <script type="text/javascript"
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5DLwPPVAz88_k0yO2nmFe7T9k1urQs84"></script>
 <script src="/assets/js/contact.js"></script>
@@ -85,7 +85,7 @@ if (parseInt(QueryString.place) && parseInt(QueryString.job)){
     try{
         var place = placeObj[QueryString.place-1].name;
         var job = placeObj[QueryString.place-1].jobs[QueryString.job-1].name;
-        $('.subject').val(place+" - "+job);
+        $('.subject').val(place+" - "+job+" [personel-ik]");
         $('.subject').html(place+" - "+job);
 
     }

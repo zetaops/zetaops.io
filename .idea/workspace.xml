@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49238fca-9c10-459b-8821-2d20cd5804f4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/gallery.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/page_all_frontmatter.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/page_simple.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/page_with_image.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/page_with_table_of_contents.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/page_without_image.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/post_with_image.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/post_without_image.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/video.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/changelog.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/design.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/documentation.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/headers.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/info.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/redirected_page.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/roadmap.md" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/js/maps.js" afterPath="$PROJECT_DIR$/assets/js/contact.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/language.yml" afterPath="$PROJECT_DIR$/_data/language.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/navigation.yml" afterPath="$PROJECT_DIR$/_data/navigation.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/services.yml" afterPath="$PROJECT_DIR$/_data/services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/redirect.html" afterPath="$PROJECT_DIR$/_layouts/redirect.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_02_settings_typography.scss" afterPath="$PROJECT_DIR$/_sass/_02_settings_typography.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_04_settings_global.scss" afterPath="$PROJECT_DIR$/_sass/_04_settings_global.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/contact.md" afterPath="$PROJECT_DIR$/pages/contact.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/pages-root-folder/404.md" afterPath="$PROJECT_DIR$/pages/pages-root-folder/404.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/pages-root-folder/index.md" afterPath="$PROJECT_DIR$/pages/pages-root-folder/index.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/we-are-hiring.md" afterPath="$PROJECT_DIR$/pages/we-are-hiring.md" />
     </list>
     <ignored path="zetaops.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,22 +26,9 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="-1548">
               <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="we-are-hiring.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/we-are-hiring.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="252">
-                <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -78,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/pages/contact.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="579">
-                <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+              <first_editor relative-caret-position="975">
+                <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -307,6 +266,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zetaops.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zetaops.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zetaops.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zetaops.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -399,12 +398,12 @@
       <workItem from="1461103701180" duration="941000" />
       <workItem from="1461221706775" duration="14844000" />
       <workItem from="1461240846479" duration="4037000" />
-      <workItem from="1461301492370" duration="19324000" />
+      <workItem from="1461301492370" duration="20731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44896000" />
+    <option name="totallyTimeSpent" value="46303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -751,8 +750,8 @@
         <state relative-caret-position="288">
           <caret line="119" column="15" selection-start-line="119" selection-start-column="15" selection-end-line="119" selection-end-column="15" />
           <folding>
-            <marker date="1461329223903" expanded="true" signature="2801:2883" placeholder="{...}" />
-            <marker date="1461329223903" expanded="true" signature="178128:178149" placeholder="{...}" />
+            <marker date="1461330115316" expanded="true" signature="2801:2883" placeholder="{...}" />
+            <marker date="1461330115316" expanded="true" signature="178128:178149" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -789,17 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/pages-root-folder/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="144">
-            <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_02_settings_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -808,11 +796,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/pages/pages-root-folder/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="144">
+            <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -835,11 +826,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1548">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/contact.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="579">
-            <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+          <first_editor relative-caret-position="975">
+            <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
             <folding />
           </first_editor>
           <second_editor />
