@@ -25,7 +25,7 @@ author: ZetaOps
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'http://beta.zetaops.com'
+url: 'http://beta.zetaops.io'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
