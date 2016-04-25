@@ -22,7 +22,7 @@ mail: info@zetaops.io
             <h3>İletişim Formu</h3>
             <span class="subject" style="font-weight:bold;color:red;"></span>
             <form action="https://formspree.io/{{ page.mail }}" method="POST">
-                <input type="text" name="name" placeholder="Isim Soyisim, Nick">
+                <input type="text" name="name" placeholder="Ad Soyad, nick">
                 <input type="email" name="_replyto" placeholder="Mail">
                 <textarea type="text" name="message" placeholder="Mesaj"></textarea>
                 <input class="button radius" style="float:right;" type="submit" value="Mesaj Gönderin">

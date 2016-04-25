@@ -19,6 +19,8 @@
     url: "/calisma-alanlarimiz/zetaopsDAS"
   - title: "Ulakbüs"
     url: "/calisma-alanlarimiz/ulakbus"
+  - title: "ZOPS Microservice Framework Architecture"
+    url: "/calisma-alanlarimiz/zops"
 
 - title: Blog
   url: "http://blog.zetaops.io/"

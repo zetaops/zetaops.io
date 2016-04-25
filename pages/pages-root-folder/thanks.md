@@ -1,5 +1,5 @@
 ---
-title: "Basvuru Onaylandi, Tesekkur Ederiz"
+title: "Mesajınız Onaylandı, Tesekkür Ederiz!"
 layout: page
 sitemap: false
 permalink: /thanks/
