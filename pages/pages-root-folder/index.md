@@ -6,6 +6,7 @@
 #
 layout: frontpage
 header:
+  title: "site.slogan"
   image_fullwidth: clouds.jpg
 # Use the call for action to show a button on the frontpage
 #

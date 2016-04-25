@@ -4,6 +4,7 @@ layout: page
 sitemap: false
 permalink: /thanks/
 header:
+    title: "site.slogan"
     image: header_typewriter.jpg
 ---
 

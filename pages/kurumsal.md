@@ -6,7 +6,8 @@ teaser: "ÖZGÜN DEĞER ÜRETMEK"
 breadcrumb: true
 sidebar: left
 header:
-  image_fullwidth: clouds.jpg
+    title: "site.slogan"
+    image_fullwidth: clouds.jpg
 image:
     thumb: iztekgeb.jpg
     title: iztekgeb.jpg
