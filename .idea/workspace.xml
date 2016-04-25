@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49238fca-9c10-459b-8821-2d20cd5804f4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/_masthead.html" afterPath="$PROJECT_DIR$/_includes/_masthead.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_07_layout.scss" afterPath="$PROJECT_DIR$/_sass/_07_layout.scss" />
     </list>
     <ignored path="zetaops.io.iws" />
@@ -45,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/contact.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
@@ -54,6 +52,16 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_07_layout.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_sass/_07_layout.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="196" column="7" selection-start-line="196" selection-start-column="7" selection-end-line="196" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -350,12 +358,12 @@
       <workItem from="1461301492370" duration="22572000" />
       <workItem from="1461572296070" duration="1289000" />
       <workItem from="1461574889434" duration="1321000" />
-      <workItem from="1461578746752" duration="6190000" />
+      <workItem from="1461578746752" duration="6441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56944000" />
+    <option name="totallyTimeSpent" value="57195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -738,14 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_07_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="198" column="17" selection-start-line="198" selection-start-column="17" selection-end-line="198" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/contact.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -754,6 +754,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_07_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="196" column="7" selection-start-line="196" selection-start-column="7" selection-end-line="196" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
